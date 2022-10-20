@@ -1,0 +1,7 @@
+header, nav, section, aside, footer { border-radius: 20px;
+    border: solid #7597D8 1px;
+    text-align: center;
+}
+div { display: flex;
+
+}

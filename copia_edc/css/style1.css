@@ -1,0 +1,91 @@
+#caja_nav {
+    display: flex; 
+    border-top: solid 1px ; 
+    border-color: #d3d3d3; 
+    margin-top: 2px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 60%;
+    justify-content: space-between;
+}
+a{
+    margin-right: 30px;
+    font-size: small;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    color: #104c42;
+}
+a:hover{
+    text-decoration: underline;
+}
+img {
+    margin-top: 40px;
+    margin-right: -180px;
+    margin-left: 29px;
+}
+#angel {
+    background: url(../IMG/VA.jpg) 100% / cover no-repeat;
+    height: 338px;
+    display: flex;
+}
+.grid {
+    display: grid; 
+    grid-template-columns: auto auto auto; 
+    background-color: transparent;
+}
+.g-item {
+    border: 1px ;
+    padding-left: 200px;
+    font-family: 'Lucida Sans', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+#un0 {
+    grid-column: 2/4;
+    grid-row: 1;
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 55px;
+    margin-bottom: -56px;
+}
+#d0s {
+    grid-column: 2/3;
+    grid-row: 2;
+    margin-right: -55px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+#tr3s {
+    grid-column: 3/4;
+    grid-row: 2;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-left: -230px;
+}
+#cuaktro {
+    grid-column: 3/4;
+    grid-row: 3;
+    margin-top: -60px;
+    color: whitesmoke;
+    font-size: 35px;
+    font-family: 'Lucida Sans', sans-serif;
+}
+footer {
+    padding-top: -10px;
+}
+a, h1, p {
+    font-family: 'Lucida Sans', sans-serif;
+}
+h1 {
+ text-align: center;
+ color: #b08f5c;   
+}
+P {
+    text-align: center;
+    color: #646d6c;
+}
+#tot {
+    margin-top: -15px;
+    margin-bottom: -10px;
+}

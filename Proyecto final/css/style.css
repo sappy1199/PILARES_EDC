@@ -1,0 +1,98 @@
+header, nav, section, div, footer {
+    font-family: sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    margin-right: 45%;
+    margin-left: 25px;
+}
+#lh {
+    height: 30px;
+    padding-right: 15px;
+ }
+a {
+    margin-right: 35px;
+    font-size: small;
+    font-weight: 600;
+}
+button {
+    border-radius: 1px;
+    border-radius: 10px;
+    block-size: 30px;
+}
+.dvbtt {
+    background-color: transparent;
+}
+.sgn{
+    background-color: azure;
+    margin-right: 25px;
+}
+button.sgn:hover {
+    background-color: black;
+    color: azure;
+}
+article {
+    background-color: #016241;
+    text-align: center;
+    color: azure;
+    font-family: 'lucida sans', sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h1 {
+    margin-bottom: -10px;
+    font-weight: bolder;
+}
+.fn {
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: x-large;
+}
+#linke {
+    color: azure;
+}
+div {
+    display: flex;
+    background-color: #D40032;
+    color: azure;
+    text-align: center;
+    margin-top: 15px;
+}
+.alebrije { 
+ width: 50%;
+}
+.sc#txt1 {
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.order {
+    background-color: transparent;
+    color: azure;
+    border-color: azure;
+}
+button.order:hover {
+    background-color: azure;
+    color: #D40032;
+}
+footer {
+    margin-top: 2px, #efefef;
+    padding-top: 20px;
+    
+}
+#pf {
+    margin-top: 7px;
+}
